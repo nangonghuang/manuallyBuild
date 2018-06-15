@@ -30,3 +30,9 @@
 
 BuildConfig这个类是不一定需要的，只是gradle的配置文件，gradle读写build.gradle文件生成BuildConfig类，进而操作写入到apk的相关属性里面去
 
+
+附:
+
+[官网构建文档(需要翻墙)](https://developer.android.com/studio/build/)
+
+![构建过程图片](/build-process_2x.png)
