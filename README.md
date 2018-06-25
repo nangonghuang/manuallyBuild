@@ -4,9 +4,6 @@
 
 系统环境是windows10
 
-> 初衷是想脱离AS来使用aar库，主要用于给游戏接入不同渠道的sdk。但是结果发现完全做到不太可能。有些渠道的sdk不仅仅是改一下manifest，还需要改aaset文件，需要在特定的包下面新建特定名字的类,这种需要特别处理。     
-不过如果是只改manifest的渠道sdk应该可以做到，用一个未签名的包，通过反编译工具添加相应的文件进去就可以了。
-
 运行 buildapk.bat 会构建出一个apk，用的是Android和java自带的工具，aapt,javac,zipalign,apksigner等
 
 中间会涉及到jar包的合并，资源文件的生成和打包等
